@@ -84,7 +84,7 @@ const CreatePost = () => {
     <section className="max-w-7xl mx-auto">
       <div>
       <h1 className="font-extrabold text-[#222328] text-[32px]">Create</h1>
-        <p className="mt-2 text-[#666e75] text-[14px] max-w-[500px]">Generate imaginative images through DALL-E AI and share it with the community</p>
+        <p className="mt-2 text-[#666e75] text-[14px] max-w-[500px]">Generate imaginative and stunning images through ImageAI and share it with the community.</p>
       </div>
 
       <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>
@@ -93,7 +93,7 @@ const CreatePost = () => {
               labelName="Your Name"
               type="text"
               name="name"
-              placeholder="Ex., Sahil Malik"
+              placeholder="Enter your name e.g. Sahil Malik"
               value={form.name}
             handleChange={handleChange}
             />
@@ -101,7 +101,7 @@ const CreatePost = () => {
               labelName="Prompt"
               type="text"
               name="prompt"
-              placeholder="A man walking on moon"
+              placeholder="Enter a prompt e.g. A man walking on the moon"
             value={form.prompt}
             handleChange={handleChange}
             isSurpriseMe
